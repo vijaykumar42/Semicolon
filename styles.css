@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -175,14 +179,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #206bfb;
   color: #fff;
-  border-color: #206bfb;
+  background: #16df7e;
+  border-color: #16df7e;
 }
 
 @media (max-width: 768px) {
   .get-started-btn {
-    margin: 0 48px 0 0;
+    margin: 0 0 0 0;
     padding: 6px 18px;
   }
 }
@@ -204,7 +208,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #5f687b;
+    font-size: 30px;
+    color:  #16df7e;
+    width:28px;
+    height: 28px;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
 
 .mobile-nav {
@@ -820,3 +833,30 @@ section {
     text-align-last: center;
   }
 }
+
+/* back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #16df7e;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+/* .back-to-top i:hover {
+  background: #206bfb;
+  color: #fff;
+} */
