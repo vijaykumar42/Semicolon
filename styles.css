@@ -549,7 +549,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
-  padding: 80px 20px;
+  padding: 70px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -666,6 +666,11 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
+}
+
+.team .card:hover h5{
+  color: #14c871;
+  transition: ease-in-out 0.3s;
 }
 
 /* contact */
